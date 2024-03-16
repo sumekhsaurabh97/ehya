@@ -1,0 +1,1775 @@
+@media (min-width: 1400px) {
+    .container {
+        width: 1320px;
+
+    }
+
+    .container-inner {
+        width: 1140px;
+    }
+
+    /* for ready  to earn-- */
+    .housting-container {
+        width: 1320px;
+        margin: 0px auto;
+    }
+
+    .Earn-container {
+        width: 1320px;
+        margin: 0px auto;
+    }
+
+    .Earn-container-inner {
+        width: 1140px;
+    }
+
+    /* for housting container */
+
+    .housting-container {
+        width: 1400px;
+        margin: 0px;
+    }
+
+    /* feature-container */
+    .feature-container {
+        width: 1320px;
+        margin: 0px auto;
+
+    }
+
+    .feature-container-inner {
+        width: 1140px;
+    }
+
+
+}
+
+
+
+@media (min-width: 1200px)and (max-width: 1400px) {
+    .container {
+        width: 1140px;
+
+    }
+
+    .container-inner {
+        width: 1000px;
+    }
+
+    /* for ready to earn-- */
+    .Earn-container {
+        width: 1140px;
+        margin: 0px auto;
+    }
+
+    .Earn-container-inner {
+        width: 1000px;
+    }
+
+    .header-inner-btn {
+        margin-bottom: 90px;
+    }
+
+    /* housting container-- */
+    .housting-container {
+        width: 100%;
+        margin: 0px;
+    }
+
+    /* feature- container */
+    .feature-container {
+        width: 1140px;
+        margin: 0px auto;
+
+    }
+
+    .feature-container-inner {
+        width: 1000px;
+    }
+
+    /* housting-- */
+
+    .housting-right {
+        margin-top: 80px;
+    }
+
+    .houstin-right-para {
+        margin-bottom: 48px;
+        padding-right: 45px;
+        display: -webkit-box;
+        max-width: 500px;
+        -webkit-line-clamp: 2;
+        -webkit-box-orient: vertical;
+        overflow: hidden;
+        text-overflow: ellipsis;
+    }
+
+    .housting-lower {
+        gap: 51px;
+    }
+
+
+    /* our-feature--- */
+
+    .controlOver {
+        padding-right: 51px;
+        gap: 136px;
+    }
+
+    .paymentMade {
+        padding-right: 50px;
+        gap: 75px;
+    }
+
+    .ourBlog-card-3-read {
+        left: 55px;
+    }
+
+    .card-1-img {
+        top: 165px;
+    }
+
+}
+
+
+@media (min-width: 992px)and (max-width: 1200px) {
+
+    .container {
+        width: 960px;
+
+    }
+
+    .container-inner {
+        width: 960px;
+        padding: 0px 66px 0px 66px;
+    }
+
+    /* ready to earn-- */
+    .Earn-container {
+        width: 960px;
+        margin: 0px auto;
+    }
+
+    .Earn-container-inner {
+        width: 960px;
+        padding: 0px 66px 0px 66px;
+    }
+
+    /* housting container */
+    .housting-container {
+        width: 960px;
+        margin: 0px auto;
+    }
+
+    /* feature containe */
+    .feature-container {
+        width: 960px;
+        margin: 0px auto;
+
+    }
+
+    .feature-container-inner {
+        width: 960px;
+        padding: 0px 66px 0px 66px;
+    }
+
+    /* nav */
+
+    .nav_list ul {
+        gap: 35px;
+    }
+
+    .card {
+        top: 446px;
+        right: 252px;
+        text-align: left;
+
+    }
+
+    /* header */
+
+    .header {
+        margin-bottom: 406px;
+    }
+
+    .header-content {
+        width: auto;
+    }
+
+    .header-inner {
+        padding-top: 86px;
+        text-align: center;
+    }
+
+    .header-descrip {
+        margin-bottom: 24px;
+        margin-top: 8px;
+        padding: 0px 0px 0px 0px;
+
+    }
+
+    .header-icons {
+        justify-content: center;
+    }
+
+    .header-inner-btn {
+        margin-bottom: 55px;
+    }
+
+    .section-line {
+        margin-top: 100px;
+        margin-bottom: 100px;
+    }
+
+    /* get paid quik */
+    .Lets-rent {
+        gap: 20px;
+    }
+
+    .putYour-screenguist {
+        gap: 20px;
+    }
+
+    #section-btn {
+        display: block;
+        margin: 0px auto 16px auto;
+    }
+
+    /* housting */
+
+    .housting-left-img {
+        width: 100%;
+    }
+
+    .housting-left-img img {
+        width: 100%;
+    }
+
+    .housting-right {
+        margin-top: 55px;
+    }
+
+    .houstin-right-para {
+        margin-bottom: 25px;
+        line-height: 30px;
+        padding-right: 20px;
+
+    }
+
+    .houstin-right-title {
+        padding-right: 20px;
+    }
+
+    .housting-lower {
+        gap: 51px;
+    }
+
+    .housting-lower-left {
+        padding-top: 0px;
+    }
+
+    .housting-lower-right {
+        width: 185%;
+    }
+
+    #housting-lower-desk-img {
+        width: 100%;
+    }
+
+    .housting-lower {
+        margin-bottom: 140px;
+    }
+
+    /* our feature */
+
+    .feature-section {
+        padding-top: 140px !important;
+    }
+
+    .controlOver {
+        gap: 67px;
+        padding-right: 0px;
+        margin-bottom: 100px;
+        margin-top: 100px;
+    }
+
+    .rentalProperty-right {
+        padding-right: 0px;
+    }
+
+    .paymentMade-right {
+        padding-top: 41px;
+    }
+
+    .paymentStatus ul li {
+        font-size: 14px;
+    }
+
+    .paymentStatus ul li img {
+        width: 13%;
+    }
+
+    .paymentStatus ul li span {
+        padding-right: 0px;
+        padding-left: 5px;
+        padding-top: 0px;
+    }
+
+    .paymentMade {
+        padding-right: 0px;
+        gap: 51px;
+        gap: 43px;
+    }
+
+    /* our-blogs--- */
+    .ourblogs {
+        margin-top: 100px;
+    }
+
+    .ourBlog-card-1-content {
+        padding-left: 21px;
+    }
+
+    .card-1-img {
+        top: 129px;
+    }
+
+    .card-2-img {
+        top: 315px;
+    }
+
+
+    .ourBlog-card-3-read {
+        left: 37px;
+    }
+
+    .ourBlog-card-3-read {
+        bottom: 18px;
+    }
+
+    /* ready to earn */
+
+    .readyToEarn {
+        margin-bottom: 75px;
+    }
+
+    .readyToEarn-m-t {
+        margin-top: 100px;
+    }
+
+    /* footer-- */
+    .footer {
+        grid-area: 45px;
+    }
+
+    .productService {
+        gap: 45px;
+    }
+
+    .companyMore-last-row li {
+        padding-right: 10px;
+    }
+
+    .companyMore {
+        gap: 45px;
+    }
+
+    .footer-nav {
+        gap: 45px;
+    }
+
+}
+
+@media (min-width: 768px)and (max-width: 992px) {
+    .container {
+        width: 720px;
+
+    }
+
+    .container-inner {
+        width: 720px;
+    }
+
+    /* for ready to earn-- */
+    .Earn-container {
+        width: 100%;
+        margin: 0px auto;
+    }
+
+    .Earn-container-inner {
+        width: 100%;
+    }
+
+    /* housting container */
+
+    .housting-container {
+        width: 720px;
+        margin: 0px auto;
+    }
+
+    /* feature container */
+    .feature-container {
+        width: 100%;
+        margin: 0px auto;
+
+    }
+
+    .feature-container-inner {
+        width: 100%;
+    }
+
+    .tab-mob-version {
+        display: block;
+
+    }
+
+    .desktop-version {
+        display: none;
+
+    }
+
+    /* header */
+    
+    .header {
+        background-image: url("./assets/tab-header.png");
+        height: 587px;
+        margin-bottom: 406px;
+    }
+
+    .header-content {
+        width: auto;
+    }
+
+    .header-inner {
+        padding-top: 86px;
+        text-align: center;
+    }
+
+    .header-descrip {
+        margin-bottom: 24px;
+        margin-top: 8px;
+        padding: 0px 39px 0px 45px;
+
+
+    }
+
+    .header-inner-btn {
+        margin-bottom: 78px;
+    }
+
+    .header-icons {
+        justify-content: center;
+    }
+
+    /* header card-- */
+    .card {
+        top: 468px;
+        right: 132px;
+        text-align: left;
+    }
+
+    /* get-paid quikly-- */
+    #section-btn {
+        display: block;
+        margin: 0px auto 16px auto;
+    }
+
+    .Lets-rent {
+        display: block;
+    }
+
+    .Lets-rent-title {
+        text-align: center;
+        margin-bottom: 56px;
+        font-size: 32px;
+    }
+
+    .putYour-screenguist-inner {
+        display: block;
+    }
+
+    .putYour-screenguist-icon {
+        text-align: center;
+        margin-bottom: 9px;
+    }
+
+    .putYour-screenguist-content {
+        text-align: center;
+        margin-left: 0px;
+    }
+
+    .section-line {
+        margin-top: 64px;
+        margin-bottom: 80px;
+
+    }
+
+    .section-summary {
+        width: 80%;
+    }
+
+    .section-tittle {
+        font-size: 32px;
+        line-height: 40px;
+    }
+
+    /* housting-- */
+    .housting-content {
+        display: block;
+        margin-top: 56px;
+    }
+
+    .housting-left-img {
+        text-align: center;
+    }
+
+    .tellUs {
+        display: block;
+    }
+
+    .numberCircle {
+        margin: auto;
+    }
+
+    .housting-right {
+        margin-top: 48px;
+    }
+
+    .houstin-right-title {
+        text-align: center;
+        margin-left: 0px;
+        padding-right: 0px;
+        margin-top: 16px;
+        margin-bottom: 8px;
+    }
+
+    .houstin-right-para {
+        text-align: center;
+        margin-left: 0px;
+        padding: 0px 70px;
+        margin-bottom: 40px;
+
+    }
+
+    .housting-learnMore-Btn {
+        display: block;
+        margin: auto;
+    }
+
+    /* housting-lower-- */
+    .housting-lower {
+        display: block;
+        margin-top: 112px;
+        padding-left: 0px;
+        margin-bottom: 120px;
+    }
+
+    .housting-lower-left {
+        padding-top: 0px;
+        text-align: center;
+        margin-bottom: 63px;
+        padding-right: 0px;
+    }
+
+    .housting-lower-para {
+        padding: 0px 64px;
+    }
+
+    .housting-lower-right {
+
+        display: flex;
+        justify-content: center;
+    }
+
+    #housting-lower-desk-img {
+        display: none;
+    }
+
+    #housting-lower-tab-img {
+        display: block;
+    }
+
+
+    /* our feature--- */
+
+    .feature-section {
+        padding-top: 80px;
+    }
+
+    #rental-tab-img {
+        display: block;
+    }
+
+    #rental-desktp-img {
+        display: none;
+    }
+
+    #payment-tab-img {
+        display: block;
+        margin: auto;
+    }
+
+    #payment-desktp-img {
+        display: none;
+    }
+
+    .reantal-property {
+        padding-left: 48px;
+        padding-top: 23px;
+    }
+
+    .rentalProperty-right {
+        padding-right: 0px;
+    }
+    .paymentMade-right{
+        padding-right: 48px;
+    }
+
+    .controlOver {
+        gap: 61px;
+        margin-top: 64px;
+        margin-bottom: 64px;
+    }
+
+    .paymentMade {
+        padding-right: 0px;
+        padding-left: 0px;
+        gap: 41px;
+    }
+
+    .paymentStatus ul li span {
+        padding-right: 8px;
+        padding-top: 5px;
+    }
+
+    .payment-section-line {
+        margin-top: 107px;
+        margin-bottom: 90px;
+    }
+
+    /* my-blogs--- */
+    .ourBlog-cards {
+        margin-top: 52px;
+        gap: 24px;
+    }
+
+    .ourBlog-card-3 {
+        display: none;
+    }
+
+    .ourblogs {
+        margin-top: 80px;
+    }
+
+    .card-1-title {
+        font-size: 22px;
+        line-height: 32px;
+    }
+
+    .ourBlog-card-2-title {
+        font-size: 22px;
+        line-height: 32px;
+    }
+
+    .cards {
+        height: 510px;
+        width: 340px;
+    }
+
+    /* host-world-wide-- */
+
+    .hostWorldwide-inner {
+        display: block;
+    }
+
+    .hostAvarage {
+        margin-bottom: 65px;
+    }
+
+    .newTotal {
+        gap: 96px
+    }
+
+    /* ready-to-earn--- */
+
+    .readyToEarn-m-t {
+        margin-top: 80px;
+    }
+
+    .readyToEarn {
+        padding-left: 48px;
+        background-image: url("./assets/tree-tab.png");
+        margin-bottom: 64px;
+        border-radius: 0px;
+    }
+
+    .readyToEarn-heading {
+        margin-top: 89px;
+        font-size: 36px;
+        margin-bottom: 7px;
+    }
+
+    /* footer--- */
+
+    footer {
+        margin-left: 50px;
+    }
+
+    .footer-nav {
+        display: block;
+    }
+
+    .social-media {
+        width: auto;
+    }
+
+    .productService {
+        width: auto;
+    }
+
+    .companyMore {
+        width: auto;
+    }
+
+    .productService-last-row {
+        padding-right: 15px;
+    }
+
+    .companyMore-last-row li {
+        padding-right: 15px;
+    }
+
+    .copyright {
+        margin-bottom: 60px;
+        margin-top: 36px;
+    }
+
+
+}
+
+
+@media (min-width: 576px)and (max-width: 768px) {
+    .container {
+        width: 540px;
+
+    }
+
+    .container-inner {
+        width: 540px;
+    }
+
+    /* for ready to earn-- */
+    .Earn-container {
+        width: 100%;
+    }
+
+    .Earn-container-inner {
+        width: 100%;
+    }
+
+    /* housting container-- */
+
+    .housting-container {
+        width: 540px;
+        margin: 0px auto;
+    }
+
+    /* feature-container */
+    .feature-container {
+        width: 540px;
+        margin: 0px auto;
+
+    }
+
+    .feature-container-inner {
+        width: 540px;
+    }
+
+
+    .container-inner {
+        width: 720px;
+    }
+
+    .tab-mob-version {
+        display: block;
+
+    }
+
+    .desktop-version {
+        display: none;
+
+    }
+
+    /* nav */
+
+    .topnav a {
+        padding: 23px 18px;
+    }
+
+    /* header--- */
+    .header {
+        height: 460px;
+        margin-bottom: 422px;
+    }
+
+    .header-inner {
+        padding-top: 0px;
+    }
+
+    .header-content {
+        width: 100%;
+        margin-top: 51px;
+        padding-left: 30px;
+        padding-right: 30px;
+        text-align: center;
+    }
+
+    .header-inner h2 {
+        font-size: 32px;
+        line-height: 40px;
+        margin-bottom: 20px;
+    }
+
+    .header-descrip {
+        font-size: 20px;
+        line-height: 28px;
+        padding-bottom: 5px;
+    }
+
+    .header-inner-btn {
+        margin-bottom: 31px;
+    }
+
+    .header-icons {
+        justify-content: center;
+    }
+
+    .card {
+        right: 40px;
+        top: 367px;
+    }
+
+    /* get paid quickly--- */
+
+    .section-tittle {
+        margin-top: 24px;
+        font-size: 28px;
+        line-height: 36px;
+    }
+
+    .section-summary {
+        font-size: 16px;
+        line-height: 28px;
+        width: 100%;
+    }
+
+    #section-btn {
+        display: block;
+        margin: auto;
+    }
+
+    .Lets-rent {
+        display: block;
+    }
+
+    .putYour-screenguist {
+        display: block;
+    }
+
+    .putYour-screenguist-inner {
+        display: block;
+        text-align: center;
+    }
+
+    .Lets-rent-title {
+        padding: 0px 24px;
+        text-align: center;
+        margin-bottom: 40px;
+        margin-top: 26px;
+        font-size: 28px;
+    }
+
+    .putYour-screenguist-title {
+        font-size: 20px;
+        line-height: 24px;
+        margin-top: 0px;
+        padding-left: 24px;
+        padding-right: 24px;
+    }
+
+    .putYour-screenguist-icon {
+        margin-bottom: 23px;
+    }
+
+    .putYour-screenguist-descri {
+        font-size: 16px;
+        line-height: 28px;
+        padding: 0 24px;
+        margin-bottom: 40px;
+    }
+
+    .putYour-screenguist-content {
+        margin-left: 0px;
+    }
+
+    .section-line {
+        margin: 55px 0px 65px 0px;
+    }
+
+    /* housting--- */
+    .housting-content {
+        display: block;
+        margin-top: 24px;
+        padding-left: 40px;
+        padding-right: 40px;
+    }
+
+    .housting-left-img img {
+        width: 100%;
+    }
+
+    .houstin-right-para {
+        padding-right: 24px;
+        padding-left: 24px;
+        margin-left: 0px;
+        margin-bottom: 40px;
+        font-size: 16px;
+        line-height: 28px;
+    }
+
+    .houstin-right-title {
+        margin: 23px 0px 7px 0px;
+        padding-right: 0px;
+        padding-left: 24px;
+        padding-right: 24px;
+
+    }
+
+    .housting-right {
+        margin-top: 40px;
+    }
+
+    .tellUs {
+        display: block;
+        text-align: center;
+    }
+
+    .numberCircle {
+        margin: auto;
+    }
+
+    .housting-learnMore-Btn {
+        display: block;
+        margin: auto;
+    }
+
+    /* ready to earn-- */
+
+    .housting-lower {
+        margin-top: 88px;
+        display: block;
+        padding: 0px;
+        margin-bottom: 80px;
+    }
+
+    .housting-lower-left {
+        padding: 0px;
+        text-align: center;
+
+    }
+
+    .housting-lower-para {
+        padding: 0px 24px;
+        margin-bottom: 24px;
+        font-size: 28px;
+        line-height: 44px;
+        letter-spacing: 1px;
+        margin-top: 30px;
+    }
+
+    .housting-lower-title {
+        font-size: 16px;
+        line-height: 21.79px;
+        margin-left: 24px;
+        margin-right: 24px;
+    }
+
+    .housting-lower-right {
+        display: none;
+    }
+
+    /* our feature-- */
+    .feature-section {
+        padding-top: 80px;
+    }
+
+    .controlOver {
+        flex-direction: column-reverse;
+        gap: 0px;
+        margin-bottom: 64px;
+        margin-top: 64px;
+    }
+
+    .rental-payment-title {
+        padding: 0px 24px;
+        margin-bottom: 28px;
+        font-size: 24px;
+        line-height: 32px;
+    }
+
+    .rentalProperty-right {
+        padding-top: 0px;
+        display: block;
+        margin: auto;
+        padding-right: 0px;
+    }
+
+    .paymentMade {
+        display: block;
+        padding: 0px;
+    }
+
+    .reantal-property {
+        padding: 64px 0px 0px 0px;
+        text-align: center;
+    }
+
+    .rental-payment-title-descrip {
+        font-size: 16px;
+        line-height: 28px;
+        padding: 0px 24px;
+        margin-bottom: 24px;
+    }
+
+    .paymentMade-right {
+        text-align: center;
+        padding-top: 0px;
+        margin-top: 64px;
+    }
+
+    .paymentStatus {
+        display: block;
+    }
+
+    .paymentStatus ul li {
+        justify-content: center;
+        margin-bottom: 20px;
+    }
+
+    .paymentMade-left {
+        text-align: center;
+    }
+
+    .watchMore {
+        justify-content: center;
+    }
+
+    .paymentStatus ul li span {
+        font-size: 14px;
+    }
+
+    .payment-section-line {
+        margin: 74px 0px 64px 0px;
+    }
+
+    /* our-blogs--- */
+    .ourBlog-cards {
+        flex-direction: column;
+        align-items: center;
+        gap: 32px;
+        margin-top: 47px;
+    }
+
+    .ourblogs {
+        margin-top: 54px;
+    }
+
+    .lifestyle {
+        font-size: 14px;
+        line-height: 20px;
+    }
+
+    /* host worl wide-- */
+    .hostWorldwide-inner {
+        display: block;
+        margin-top: 0px;
+    }
+
+    .hostAvarage {
+        display: block;
+    }
+
+    .newTotal {
+        display: block;
+    }
+
+    .hostWorldwide-card {
+        margin-top: 48px;
+    }
+
+    .hostWorldwide-counter {
+        font-size: 32px;
+    }
+
+    .hostWorldwide-title {
+        font-size: 16px;
+    }
+
+    /* ready to earn-- */
+    .readyToEarn-heading {
+        margin-top: 64px;
+        font-size: 28px;
+        line-height: 36px;
+    }
+
+    .readyToEarn-title {
+        font-size: 16px;
+        line-height: 28px;
+        margin-top: 16px;
+        margin-bottom: 24px;
+    }
+
+    .readyToEarn-m-t {
+        margin-top: 79px;
+    }
+
+    .readyToEarn {
+        padding-left: 24px;
+        padding-right: 24px;
+        margin-bottom: 48px;
+        background-image: url("./assets/tree-tab.png");
+        border-radius: 0px;
+    }
+
+    .readyToEarn-btn {
+        margin-bottom: 64px;
+
+    }
+
+    /* footer-- */
+
+    footer {
+
+        flex-direction: column-reverse;
+        margin-left: 0px;
+        gap: 24px;
+    }
+
+    .social-media {
+        width: 50%;
+        margin: auto;
+        text-align: center;
+        height: auto;
+    }
+
+    .social-media ul {
+        justify-content: center;
+    }
+
+    .footer-nav {
+        display: block;
+        height: auto;
+    }
+
+    .productService {
+        padding-left: 20px;
+        justify-content: center;
+        gap: 140px;
+
+
+    }
+
+    .productService-last-row {
+        padding-right: 0px;
+        padding-right: 20px;
+    }
+
+    /* footer */
+    .companyMore {
+        justify-content: center;
+        gap: 168px;
+        margin-top: 25px;
+
+    }
+
+    .footer-nav ul li {
+        padding-bottom: 15px;
+    }
+
+    .companyMore-last-row li {
+        padding-right: 20px;
+    }
+
+    .copyright {
+        display: none;
+    }
+}
+
+/* feature-container */
+@media (min-width: 310px)and (max-width: 576px) {
+    .container {
+        width: 100%;
+
+    }
+
+    .container-inner {
+        width: 100%;
+    }
+
+    /* for ready to earn-- */
+
+    .Earn-container {
+        width: 100%;
+        margin: 0px auto;
+    }
+
+    .Earn-container-inner {
+        width: 100%;
+    }
+
+    /* housting container-- */
+    .housting-container {
+        width: 100%;
+    }
+    /* feature container */
+    .feature-container {
+        width: 100%;
+
+    }
+
+    .feature-container-inner {
+        width: 100%;
+    }
+
+    /* top nav-- */
+    .tab-mob-version {
+        display: block;
+
+    }
+
+    .desktop-version {
+        display: none;
+
+    }
+
+    .topnav a {
+        padding: 15px 18px;
+    }
+
+    /* header--- */
+
+    .header {
+        height: 481px;
+        margin-bottom: 400px;
+        background-image: url("./assets/mobile-header.png");
+        border-radius: 0px;
+    }
+
+    .header-inner {
+        padding-top: 0px;
+    }
+
+    .header-content {
+        width: 100%;
+        margin-top: 51px;
+        padding-left: 30px;
+        padding-right: 30px;
+        text-align: left;
+        padding-left: 24px;
+    }
+
+    .header-inner h2 {
+        font-size: 32px;
+        line-height: 40px;
+        margin-bottom: 20px;
+    }
+
+    .header-descrip {
+        font-size: 20px;
+        line-height: 28px;
+        margin-bottom: 17px;
+        padding-left: 0px;
+        display: -webkit-box;
+        max-width: 400px;
+        -webkit-line-clamp: 4;
+        -webkit-box-orient: vertical;
+        overflow: hidden;
+        text-overflow: ellipsis;
+        padding-right: 77px;
+    }
+
+    .header-inner-btn {
+        margin-bottom: 34px;
+    }
+
+    .header-icons {
+        justify-content: center;
+        display: none;
+    }
+
+    /* header card-- */
+
+    .card {
+        top: 127%;
+        left: 50%;
+        margin-right: -50%;
+        transform: translate(-50%, -50%)
+    }
+
+    .card {
+        width: 304px;
+        height: 481px;
+        padding: 32px 0px 0px 24px;
+
+    }
+
+    .card .earn-extra {
+        font-size: 14px;
+        letter-spacing: 0.2px;
+    }
+
+    .card-tbns {
+        display: block;
+        padding-right: 24px;
+    }
+
+    #guests-btn {
+        width: 100%;
+        margin-left: 0px;
+        padding-right: 32px;
+    }
+
+    .card input {
+        width: 91%;
+        padding-right: 32px;
+    }
+
+    #getStat {
+        width: 91%;
+    }
+
+    #place-btn {
+        width: 100%;
+    }
+
+    .card-amount {
+        font-size: 36px;
+        line-height: 46px;
+    }
+
+    .card h3 {
+        font-size: 20px;
+        line-height: 24px;
+        margin-bottom: 10px;
+    }
+
+    .section-tittle {
+        margin-top: 24px;
+        font-size: 28px;
+        line-height: 36px;
+    }
+
+    .section-summary {
+        font-size: 16px;
+        line-height: 28px;
+        width: 100%;
+    }
+
+    #section-btn {
+        display: block;
+        margin: auto;
+    }
+
+    /* get paid quickly */
+    .Lets-rent {
+        display: block;
+    }
+
+    .putYour-screenguist {
+        display: block;
+    }
+
+    .putYour-screenguist-inner {
+        display: block;
+        text-align: center;
+    }
+
+    .Lets-rent-title {
+        padding: 0px 24px;
+        text-align: center;
+        margin-bottom: 40px;
+        margin-top: 26px;
+        font-size: 28px;
+    }
+
+    .putYour-screenguist-title {
+        font-size: 20px;
+        line-height: 24px;
+        margin-top: 0px;
+        padding-left: 24px;
+        padding-left: 24px;
+    }
+
+    .putYour-screenguist-icon {
+        margin-bottom: 23px;
+    }
+
+    .putYour-screenguist-descri {
+        font-size: 16px;
+        line-height: 28px;
+        padding: 0 24px;
+        margin-bottom: 40px;
+    }
+
+    .putYour-screenguist-content {
+        margin-left: 0px;
+    }
+
+    .section-line {
+        margin: 55px 0px 65px 0px;
+    }
+
+    /* housting--- */
+    .housting-content {
+        display: block;
+        margin-top: 24px;
+        padding-left: 40px;
+        padding-right: 40px;
+    }
+
+    .housting-left-img img {
+        width: 100%;
+    }
+
+    .houstin-right-para {
+        padding-right: 0px;
+        padding-left: 24px;
+        margin-left: 0px;
+        margin-bottom: 40px;
+        font-size: 16px;
+        line-height: 28px;
+    }
+
+    .houstin-right-title {
+        margin: 23px 0px 7px 0px;
+        padding-left: 24px;
+        padding-right: 24px;
+
+    }
+
+    .housting-right {
+        margin-top: 40px;
+    }
+
+    .tellUs {
+        display: block;
+        text-align: center;
+    }
+
+    .numberCircle {
+        margin: auto;
+    }
+
+    .housting-learnMore-Btn {
+        display: block;
+        margin: auto;
+    }
+
+    .housting-lower {
+        margin-top: 88px;
+        display: block;
+        padding: 0px;
+        margin-bottom: 80px;
+    }
+
+    .housting-lower-left {
+        padding: 0px;
+        text-align: center;
+
+    }
+
+    .housting-lower-para {
+        padding: 0px 24px;
+        margin-bottom: 24px;
+        font-size: 28px;
+        line-height: 44px;
+        letter-spacing: 1px;
+        margin-top: 30px;
+    }
+
+    .housting-lower-title {
+        font-size: 16px;
+        line-height: 21.79px;
+        margin-left: 24px;
+        margin-right: 24px;
+    }
+
+    .housting-lower-right {
+        display: none;
+    }
+
+    /* our feature-- */
+    .feature-section {
+        padding-top: 80px;
+    }
+
+    .controlOver {
+        flex-direction: column-reverse;
+        gap: 0px;
+        margin-bottom: 64px;
+        margin-top: 64px;
+    }
+
+    .rental-payment-title {
+        padding: 0px 24px;
+        margin-bottom: 28px;
+        font-size: 24px;
+        line-height: 32px;
+    }
+
+    .rentalProperty-right {
+        padding-top: 0px;
+        display: block;
+        margin: auto;
+        padding-right: 0px;
+    }
+
+    .paymentMade {
+        display: block;
+        padding: 0px;
+    }
+
+    .reantal-property {
+        padding: 64px 0px 0px 0px;
+        text-align: center;
+    }
+
+    .rental-payment-title-descrip {
+        font-size: 16px;
+        line-height: 28px;
+        padding: 0px 20px;
+        margin-bottom: 24px;
+    }
+
+    .paymentMade-right {
+        text-align: center;
+        padding-top: 0px;
+        margin-top: 64px;
+    }
+
+    .paymentStatus {
+        display: block;
+    }
+
+    .paymentStatus ul li {
+        justify-content: center;
+        margin-bottom: 20px;
+    }
+
+    .paymentMade-left {
+        text-align: center;
+    }
+
+    .watchMore {
+        justify-content: center;
+    }
+
+    .paymentStatus ul li span {
+        font-size: 14px;
+    }
+
+    .payment-section-line {
+        margin: 74px 0px 64px 0px;
+    }
+
+    /* our-blogs--- */
+    .cards {
+        width: 300px;
+        height: 440px;
+    }
+
+    .ourBlog-card-1-content {
+        padding-top: 26px;
+        padding-left: 26px;
+    }
+
+    .card-1-img {
+        top: 161px;
+    }
+
+    .lifestyle {
+        font-size: 14px;
+        line-height: 20px;
+    }
+
+    .card-1-title {
+        font-size: 20px;
+        margin-top: 16px;
+        line-height: 24px;
+    }
+
+    .card-1-descript {
+        font-size: 16px;
+        line-height: 28px;
+    }
+
+    .read-article {
+        font-size: 16px;
+
+    }
+
+    button span {
+        right: 34px;
+    }
+
+    .ourBlog-card-2-title {
+        font-size: 21px;
+    }
+
+    .card-2-img {
+        left: 0px;
+        top: 264px;
+    }
+
+    .ourBlog-card-3-title {
+        font-size: 21px;
+    }
+
+    .ourBlog-card-3-read {
+        left: 61px;
+        width: 195px;
+    }
+
+
+    .ourBlog-cards {
+        flex-direction: column;
+        align-items: center;
+        gap: 32px;
+        margin-top: 47px;
+    }
+
+    .ourblogs {
+        margin-top: 54px;
+    }
+
+    /* host worl wide-- */
+    .hostWorldwide-inner {
+        display: block;
+        margin-top: 0px;
+    }
+
+    .hostAvarage {
+        display: block;
+    }
+
+    .newTotal {
+        display: block;
+    }
+
+    .hostWorldwide-card {
+        margin-top: 48px;
+    }
+
+    .hostWorldwide-counter {
+        font-size: 32px;
+    }
+
+    .hostWorldwide-title {
+        font-size: 16px;
+    }
+
+    /* ready to earn-- */
+    .readyToEarn {
+        background-image: url("./assets/tree-tab.png");
+        border-radius: 0px;
+    }
+
+    .readyToEarn-heading {
+        margin-top: 64px;
+        font-size: 28px;
+        line-height: 36px;
+    }
+
+    .readyToEarn-title {
+        font-size: 16px;
+        line-height: 28px;
+        margin-top: 16px;
+        margin-bottom: 24px;
+        width: 100%;
+        padding-right: 24px;
+    }
+
+    .readyToEarn-m-t {
+        margin-top: 79px;
+    }
+
+    .readyToEarn {
+        padding-left: 24px;
+        padding-right: 24px;
+        margin-bottom: 48px;
+        background-image: url("./assets/tree-tab.png");
+    }
+
+    .readyToEarn-btn {
+        margin-bottom: 64px;
+
+    }
+
+    /* footer-- */
+
+    footer {
+
+        flex-direction: column-reverse;
+        margin-left: 0px;
+        gap: 24px;
+    }
+
+    .social-media {
+        width: 50%;
+        margin: auto;
+        text-align: center;
+        height: auto;
+    }
+
+    .social-media ul {
+        justify-content: center;
+    }
+
+    .footer-nav {
+        display: block;
+        height: auto;
+    }
+
+    .productService {
+        padding-left: 20px;
+        justify-content: center;
+        gap: 51px;
+
+
+    }
+
+    .productService-last-row {
+        padding-right: 0px;
+        padding-right: 20px;
+    }
+
+    .companyMore {
+        justify-content: center;
+        gap: 81px;
+        margin-top: 25px;
+
+    }
+
+    .footer-nav ul li {
+        padding-bottom: 15px;
+    }
+
+    .companyMore-last-row li {
+        padding-right: 20px;
+    }
+
+    .copyright {
+        display: none;
+    }
+
+}

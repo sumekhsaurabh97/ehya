@@ -1,0 +1,476 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="responsive.css">
+    <title>Ehya</title>
+</head>
+
+<body>
+    <!-- upper navigation -->
+    <div class="container d-flx-jc-cen">
+        <nav class="container-inner d-flx-jc-sb desktop-version">
+            <div class="logo">
+                <img src="./assets/Logo.png" alt="">
+            </div>
+            <div class="nav_list">
+                <ul class="d-flx">
+                    <li>Home</li>
+                    <li class="dropdwn">Landings <i class="material-icons">expand_more</i></li>
+                    <li class="dropdwn">Pages <i class="material-icons">expand_more</i></li>
+                    <li>Docs</li>
+                    <li>Help</li>
+                    <li><button>Get it now </button></li>
+                </ul>
+            </div>
+        </nav>
+        <!-- nav mobile version -->
+        <div class="container-inner tab-mob-version">
+            <div class="topnav">
+                <a href="#home" class="active logo-menubar"><img src="./assets/Logo.png" alt=""></a>
+                <div id="myLinks">
+                    <a href="#news">Home</a>
+                    <a href="#news">Landing<i class="material-icons">expand_more</i></a>
+                    <a href="#contact">Pages<i class="material-icons">expand_more</i></a>
+                    <a href="#about">Docs</a>
+                    <a href="#helpt">Help</a>
+                    <!-- <a href="#about">Get it now</a> -->
+                    <a><button>Get it now </button></a>
+                </div>
+                <a href="javascript:void(0);" class="icon logo-menubar" onclick="myFunction()">
+                    <i class="material-icons" style="font-size:35px;">menu</i>
+                </a>
+            </div>
+        </div>
+    </div>
+    <!-- header start from here -->
+    <div class="container header d-flx-jc-cen" style="position: relative;">
+        <div class="container-inner header-inner">
+
+            <div class="header-content">
+                <h2>Let’s your home work</h2>
+                <p class="header-descrip">No matter what kind of place you have to share,
+                    rent out your house, apartment or room & earn
+                    extra money quickly.
+                </p>
+                <button class="header-inner-btn">Learn more<span class="icon"><i
+                            class="material-icons">arrow_forward</i></span></button>
+                <div class="header-icons d-flx">
+                    <img src="./assets/header-icon.png" alt="">
+                    <span>Charge what you want</span>
+
+                    <img src="./assets/header-icon.png" alt="" style="margin-left:20px;">
+                    <span>Get paid quickly</span>
+                </div>
+            </div>
+            <!-- header card -->
+            <div class="card">
+                <div>
+                    <h3> Earn extra money</h3>
+                    <p class="earn-extra">Get an estimate price for space you rent</p>
+                    <div class="input-container">
+                        <input type="text" name="" id="" placeholder="Enter your location" style="display: block;">
+                        <i class="material-icons">location_on</i>
+                    </div>
+                    <div class="card-tbns">
+                        <button id="place-btn">Entire place <i class="material-icons">expand_more</i></button>
+                        <button id="guests-btn">3 guests <i class="material-icons">expand_more</i></button>
+                    </div>
+                    <p class="Monthly-potential">Monthly potential</p>
+                    <p class="card-amount">$6,850</p>
+                    <button id="getStat">Get Started</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- get-paid-quckly start -->
+
+    <div class="container d-flx-jc-cen">
+        <div class="container-inner">
+            <button id="section-btn">GET PAID QUICKLY</button>
+            <div class="d-flx Lets-rent">
+                <p class="Lets-rent-title">Let’s rent out your home, enjoy!</p>
+                <div class="putYour-screenguist d-flx">
+                    <div class="putYour-screenguist-inner d-flx">
+                        <div class="putYour-screenguist-icon">
+
+                            <img src="./assets/home-icon.png" alt="">
+                        </div>
+                        <div class="putYour-screenguist-content">
+                            <p class="putYour-screenguist-title">Put your home to work</p>
+                            <p class="putYour-screenguist-descri">No matter what kind of home you have to share,
+                                you can increase
+                                your earnings.</p>
+                        </div>
+                    </div>
+                    <div class="putYour-screenguist-inner d-flx">
+                        <div class="putYour-screenguist-icon">
+
+                            <img src="./assets/man-icon.png" alt="">
+                        </div>
+                        <div class="putYour-screenguist-content">
+                            <p class="putYour-screenguist-title">Screen guests quickly</p>
+                            <p class="putYour-screenguist-descri">Get to know guests before
+                                they stay by the reading reviews
+                                to keep your home safe.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="section-line"></div>
+        </div>
+    </div>
+
+    <!-- housting step -->
+
+    <!-- <div class="container"> -->
+    <div class="d-flx-jc-cen container">
+        <div style="text-align: center;">
+            <button id="section-btn">HOUSTING STEPS</button>
+            <h2 class="section-tittle">Rent out your home in 3 steps</h2>
+            <p class="section-summary">Tired of secretive bids? Our platform provides a
+                transparent rental auction with the
+                ability to submit custom offers. </p>
+        </div>
+    </div>
+    <!-- housting container used for prevent from margin 0px left and right -->
+    <div class="d-flx-jc-cen">
+        <div class="housting-container">
+            <div class="housting-content d-flx">
+                <div class="housting-left-img">
+                    <img src="./assets/housting-img-1.png" alt="">
+                </div>
+                <div class="housting-left-content">
+                    <div class="housting-right">
+                        <div class="d-flx tellUs">
+                            <div class="numberCircle">
+                                <img src="./assets/one.png" alt="">
+                            </div>
+                            <div>
+                                <p class="houstin-right-title">Tell us about your space</p>
+                                <p class="houstin-right-para">Share any space from a shared living room to a second home
+                                    and
+                                    everything in-between.</p>
+                            </div>
+                        </div>
+                        <div class="d-flx tellUs">
+                            <div class="numberCircle">
+                                <img src="./assets/two.png" alt="">
+                            </div>
+                            <div>
+                                <p class="houstin-right-title">Decide how you want to host</p>
+                                <p class="houstin-right-para">You’re free to choose your own schedule, prices,
+                                    and requirements for guests.</p>
+                            </div>
+                        </div>
+                        <div class="d-flx tellUs">
+                            <div class="numberCircle">
+                                <img src="./assets/three (1).png" alt="">
+                            </div>
+                            <div>
+                                <p class="houstin-right-title">Welcome your first guest</p>
+                                <p class="houstin-right-para">Once your listing is live, qualified guests can
+                                    reach out and you can message them.</p>
+                            </div>
+                        </div>
+                        <button class="housting-learnMore-Btn">Learn more <span class="icon"><i
+                                    class="material-icons">arrow_forward</i></span></button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- housting lower -->
+
+    <div class="container d-flx-jc-cen">
+        <div class="container-inner d-flx housting-lower">
+            <div class="housting-lower-left">
+                <img src="./assets/quote-left.png" alt="">
+                <p class="housting-lower-para">Hosting has helped me pay for a new living room and
+                    other upgrades. I would continue
+                    to use this platform forever.</p>
+                <p class="housting-lower-title">Daniel hosts in Yogyakarta to earn extra money</p>
+            </div>
+            <div class="housting-lower-right">
+                <img src="./assets/men.png" alt="" id="housting-lower-desk-img">
+                <img src="./assets/host-tab.png" alt="" id="housting-lower-tab-img">
+            </div>
+        </div>
+    </div>
+
+    <!-- our features -->
+    <!-- feature container is used because feature section take width 100% in tablet version -->
+    <div class="feature-container d-flx-jc-cen">
+        <div class="feature-container-inner feature-section">
+            <div style="text-align: center;">
+                <button id="section-btn">OUR FEATURES</button>
+                <h2 class="section-tittle">You’re in good hoisting platform</h2>
+                <p class="section-summary">Tired of secretive bids? Our platform provides a transparent rental auction
+                    with the ability to submit custom offers. </p>
+            </div>
+            <div class="controlOver d-flx">
+                <div class="reantal-property">
+                    <h2 class="rental-payment-title">100% control over your rental property management</h2>
+                    <p class="rental-payment-title-descrip">Listing more than one? Enjoy full control over your
+                        advertisements, manage your entire space. Once you list a property on our platform, you only
+                        have to sit back and
+                        watch the world want it.</p>
+                    <div class="watchMore d-flx">
+                        <div class="videoPlayer d-flx-jc-cen">
+                            <img src="./assets/videoPlayer.png" alt="">
+                        </div>
+                        <div style="margin-left:15px;">
+                            <p class="videoPlayer-title"> See how it works</p>
+                            <div class="videoPlayer-btn">
+
+                                <span>Read article</span><i class="material-icons">arrow_forward</i>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="rentalProperty-right">
+                    <img src="./assets/property.png" alt="" style="border-radius:8px ;" id="rental-desktp-img">
+                    <img src="./assets/property-tab (1).png" alt="" style="border-radius:8px;" id="rental-tab-img">
+                </div>
+
+            </div>
+
+            <!-- our features lower -->
+
+            <div class="paymentMade d-flx-jc-sb">
+                <div class="paymentMade-left">
+                    <img src="./assets/money.png" alt="" style="border-radius:8px ;" id="payment-desktp-img">
+                    <img src="./assets/money-tab.png" alt="" style="border-radius:8px ;" id="payment-tab-img">
+                </div>
+                <div class="paymentMade-right">
+                    <h2 class="rental-payment-title">Payments made simple</h2>
+                    <p class="rental-payment-title-descrip">Once a guest checks in, we can send your money by
+                        Paypal, direct deposit, or other available methods.
+                    </p>
+                    <div class="paymentStatus d-flx-jc-sb">
+                        <ul>
+                            <li style="display: flex;"><img src="./assets/payment-status.png" alt="">
+                                <span>Charge what you want</span>
+                            </li>
+                            <li style="display: flex;"><img src="./assets/payment-status.png" alt="">
+                                <span>Free to list your space</span>
+                            </li>
+                            <li style="display: flex;"><img src="./assets/payment-status.png" alt="">
+                                <span>Pay low fees</span>
+                            </li>
+                        </ul>
+                        <ul>
+                            <li style="display: flex;"><img src="./assets/payment-status.png" alt="">
+                                <span>Customer Support</span>
+                            </li>
+                            <li style="display: flex;"><img src="./assets/payment-status.png" alt="">
+                                <span>Get paid quickly</span>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <div class="section-line payment-section-line"></div>
+        </div>
+    </div>
+
+    <!--our-blogs start from here -->
+
+    <div class="container d-flx-jc-cen">
+        <div class="container-inner">
+            <div style="text-align: center;">
+                <button id="section-btn">OUR BLOG</button>
+                <h2 class="section-tittle">Don’t miss our recent articles</h2>
+                <p class="section-summary">We share common trends and strategies for improving your rental
+                    income and making sure you stay in high demand. </p>
+            </div>
+            <div class="ourBlog-cards d-flx">
+                <div class="ourBlog-card-1 cards">
+                    <div>
+                        <img src="./assets/blog-img-1.png" alt="" style="width: 100%;">
+
+                    </div>
+                    <div class="ourBlog-card-1-content">
+                        <span class="lifestyle">Lifestyle</span><span class="lifestyle-date"><b>.</b> Jun 28,
+                            2019</span>
+                        <p class="card-1-title">How to improve your home more Guest-Friendly</p>
+                        <p class="card-1-descript">Once you have your rental posted,
+                            you should focus on how yo…</p>
+
+                        <button class="read-article">Read article <span class="icon"><i
+                                    class="material-icons">arrow_forward</i></span></button>
+                    </div>
+                    <div class="card-1-img">
+                        <img src="./assets/card-1-img.png" alt="">
+                    </div>
+                </div>
+                <div class="ourBlog-card-2 cards">
+                    <div class="card-2-img">
+                        <img src="./assets/card-2-img.png" alt="">
+                    </div>
+                    <p class="ourBlog-card-2-title">Tips: Host Preparedness for Physical Activities</p>
+                </div>
+                <div class="ourBlog-card-3 d-flx-jc-cen cards">
+                    <div style="text-align: center;">
+                        <button id="ourBlog-card-3-btn">Guide</button>
+                        <p class="ourBlog-card-3-title">Guest-Friendly Home Improvements for Your Space</p>
+
+                        <button class="ourBlog-card-3-read">Read article <span class="icon"><i
+                                    class="material-icons">arrow_forward</i></span></button>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- host like you worldwide -->
+
+    <div class="container d-flx-jc-cen ourblogs">
+        <div class="container-inner">
+            <div style="text-align: center;">
+                <h2 class="section-tittle">Hosts like you, worldwide</h2>
+                <p class="section-summary">We share common trends and strategies for improving your
+                    rental income and making sure you stay in high demand. </p>
+            </div>
+            <div class="d-flx-jc-cen">
+                <div class="d-flx hostWorldwide-inner">
+                    <div class="d-flx hostAvarage">
+                        <div class="hostWorldwide-card">
+                            <img src="./assets/fire.png" alt="">
+                            <p class="hostWorldwide-counter">3.9M</p>
+                            <p class="hostWorldwide-title">Hosts on our platform</p>
+                        </div>
+                        <div class="hostWorldwide-card">
+                            <img src="./assets/check.png" alt="">
+                            <p class="hostWorldwide-counter">600K</p>
+                            <p class="hostWorldwide-title">Avarage stays each night</p>
+                        </div>
+
+                    </div>
+                    <div class="d-flx newTotal">
+                        <div class="hostWorldwide-card">
+                            <img src="./assets/flage.png" alt="">
+                            <p class="hostWorldwide-counter">9K</p>
+                            <p class="hostWorldwide-title">New hosts per month</p>
+                        </div>
+                        <div class="hostWorldwide-card">
+                            <img src="./assets/emoji.png" alt="">
+                            <p class="hostWorldwide-counter">6.4M</p>
+                            <p class="hostWorldwide-title">Total happy guests</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- ready to earn - ready to earn container used for margin 0px from left and right in tab and mobile -->
+
+    <div class="Earn-container d-flx-jc-cen">
+        <div class="Earn-container-inner radyToEarn-container readyToEarn-m-t">
+            <div class=" readyToEarn">
+                <h3 class="readyToEarn-heading">Ready to earn?</h3>
+                <p class="readyToEarn-title">Rent out your house, apartment or room & earn extra money quickly.</p>
+                <button class="readyToEarn-btn">Get started <span class="icon"><i
+                            class="material-icons">arrow_forward</i></span></button>
+            </div>
+        </div>
+    </div>
+
+    <!-- footer -->
+
+    <div class="container d-flx-jc-cen">
+        <div class="container-inner">
+            <footer class="d-flx">
+                <div class="social-media">
+                    <img src="./assets/Logo.png" alt="">
+                    <p>Build a modern and creative website with crealand</p>
+                    <ul class="d-flx">
+                        <li><img src="./assets/google.png" alt=""></li>
+                        <li><img src="./assets/twitter.png" alt=""></li>
+                        <li><img src="./assets/instagram.png" alt=""></li>
+                        <li><img src="./assets/linkdin.png" alt=""></li>
+                    </ul>
+                </div>
+                <div class="footer-nav d-flx">
+                    <div class="productService d-flx">
+                        <ul>
+                            <li>Product</li>
+                            <li>Landingpage</li>
+                            <li>Features</li>
+                            <li>Document</li>
+                            <li>Referral Program</li>
+                            <li>Pricing</li>
+                        </ul>
+                        <ul class="productService-last-row">
+                            <li>Services</li>
+                            <li>Documentation</li>
+                            <li>Design</li>
+                            <li>Themes</li>
+                            <li>Illustrations</li>
+                            <li>UI Kit</li>
+                        </ul>
+                    </div>
+                    <div class="companyMore d-flx">
+                        <ul>
+                            <li>Company</li>
+                            <li>About</li>
+                            <li>Terms</li>
+                            <li>Privacy Policy</li>
+                            <li>Careers</li>
+                        </ul>
+                        <ul class="companyMore-last-row">
+                            <li>More</li>
+                            <li>Documentation</li>
+                            <li>License</li>
+                            <li>Changelog</li>
+                        </ul>
+                    </div>
+                </div>
+            </footer>
+
+            <!-- copyright -->
+
+            <div class="copyright d-flx-jc-cen">
+                <div>
+                    <img src="./assets/heart.png" alt="">
+                    <p style="text-align: center;">Copyright © 2019. Crafted with love.</p>
+                </div>
+
+            </div>
+        </div>
+
+    </div>
+
+
+
+
+
+
+
+
+    <script>
+        function myFunction() {
+            var x = document.getElementById("myLinks");
+            if (x.style.display === "block") {
+                x.style.display = "none";
+            } else {
+                x.style.display = "block";
+            }
+        }
+    </script>
+
+
+
+</body>
+
+</html>
